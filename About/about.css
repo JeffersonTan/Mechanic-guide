@@ -45,3 +45,14 @@ body
 	from{right:100%;}
 	to{right:0%;}
 }
+
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+  background: rgb(26,140,226);
+  border-radius: 10px;
+}
