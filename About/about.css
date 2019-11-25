@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Varela+Round&display=swap');
+html
+{
+	font-family:"Varela Round", "Myriad Pro", "Ubuntu";
+	color:white;
+	overflow-x: hidden;
+}
+body
+{
+	background:#100E17;
+}
+.topnav
+{
+	color:white;
+	overflow:hidden;
+	border-width:0px 0px 1px 0px;
+	border-color:#302F34;
+	border-style:solid;
+}
+.topnav a
+{
+	color:white;
+	text-decoration:none;
+	padding:15px 30px;
+	border-style:solid;
+	border-color:#302F34;
+	border-width:0px 1px 0px 0px;
+	text-align:center;
+	display:block;
+	float:left;
+	font-family:corbel, ubuntu;
+	font-variant:small-caps;
+}
+.topnav a:hover
+{
+	background-color:#4585DE80;
+}
+.anim1
+{
+	position:relative;
+	animation:moving1 1s ease-out 0.2s alternate both 1;
+}
+@keyframes moving1
+{
+	from{right:100%;}
+	to{right:0%;}
+}
