@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Varela+Round|Roboto&display=swap');
+html
+{
+	font-family:"Varela Round", "Myriad Pro";
+	overflow-x: hidden;
+}
+html, body{
+	margin: 0;
+	height:100%;
+}
+.head
+{
+	position: relative;
+	background:radial-gradient(circle at right, rgba(0,0,0,0.8), #100e17 40%), url(brakes.jpg) no-repeat right;
+	height:300px;
+	border-style:solid;
+	border:0px;
+	border-radius:0px 0px 200px 0px;
+}
+.head h1
+{
+	position: relative;
+	top:-80%;
+	left:5%;
+	font-size: 40pt;
+	font-family: Ubuntu, sans;
+	color:white;
+}
+.head-gradient
+{
+	position: relative;
+	background:linear-gradient(90deg, rgb(0,37,138) 0%, rgb(26,140,226) 100%);
+	height:350px;
+	z-index: -2;
+}
+.topnav a
+{
+	color:white;
+	text-decoration:none;
+	padding:15px 30px;
+	border-style:solid;
+	border-color:#302F34;
+	border-width:0px 1px 0px 0px;
+	text-align:center;
+	display:block;
+	float:left;
+	font-family:ubuntu, corbel, sans;
+	font-variant:small-caps;
+}
+.topnav a:hover
+{
+	background-color:#4585DE80;
+}
+.anim1 {
+	position:relative;
+	animation:moving1 1s ease-out 0.2s alternate both 1;
+}
+@keyframes moving1 {
+	from{right:100%;}
+	to{right:0%;}
+}
+.content {
+	display:flex;
+	flex-flow:row;
+}
+.content h1 {
+	position: relative;
+	color:black;
+	left:2%;
+	font-size: 30pt;
+	font-family: Roboto, "Sans";
+}
+.content h2 {
+	position:relative;
+	left:2%;
+}
+.content p {
+	position: relative;
+	left:2%;
+	text-align: justify;
+	margin-right: 4%;
+}
+.text {
+	display: flex;
+	flex-flow: column;
+}
+.image {
+	display: flex;
+	flex-flow: column;
+}
+.dual-circuit {
+	background-color: rgb(240,240,240);
+	color:rgb(100,100,100);
+	width:400px;
+	margin:1%;
+	border-radius: 5px;
+}
+.master-slave {
+	background-color: rgb(240,240,240);
+	color:rgb(100,100,100);
+	width:400px;
+	margin:1%;
+	border-radius: 5px;
+}
+@media all and (max-width: 600px) {
+	.content {
+		flex-direction: column;
+	}
+	.dual-circuit {
+		margin:3%;
+		width: 92%;
+	}
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(26,140,226);
+  border-radius: 10px;
+}

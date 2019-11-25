@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Varela+Round&display=swap');
+html
+{
+	font-family:"Varela Round", "Myriad Pro", "Ubuntu";
+	color:white;
+	overflow-x: hidden;
+}
+body
+{
+	background:#100E17;
+}
+h1 k:hover
+{
+	background: rgb(0,37,138);
+	background: linear-gradient(330deg, rgba(0,37,138,1) 0%, rgba(26,140,226,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h2
+{
+	font-family:bahnschrift, Ubuntu;
+	font-variant:small-caps;
+}
+h3
+{
+	font-family:"Bahnschrift", Ubuntu;
+	font-variant:small-caps;
+}
+p
+{
+	color:rgba(255,255,255,0.7);
+	text-align:justify;
+}
+.line
+{
+	stroke:rgb(26,140,226);
+	stroke-width:10;
+	stroke-linecap:round;
+}
+.topnav
+{
+	color:white;
+	overflow:hidden;
+	border-width:0px 0px 1px 0px;
+	border-color:#302F34;
+	border-style:solid;
+}
+.topnav a
+{
+	color:white;
+	text-decoration:none;
+	padding:15px 30px;
+	border-style:solid;
+	border-color:#302F34;
+	border-width:0px 1px 0px 0px;
+	text-align:center;
+	display:block;
+	float:left;
+	font-family:corbel, ubuntu;
+	font-variant:small-caps;
+}
+.topnav a:hover
+{
+	background-color:#4585DE80;
+}
+.card
+{
+	background:white;
+	padding:20px;
+	margin:20px 0px 0px 0px;
+	border-radius:5px;
+	position:relative;
+}
+.white
+{
+	background:white;
+	z-index:0;
+	border-radius:5px;
+	position:relative;
+}
+.brake-card
+{
+	padding:20px;
+	margin:20px 0px 0px 0px;
+	position:relative;
+}
+.brake-card:after
+{
+	content:'';
+	background:radial-gradient(rgba(0,0,0,0.8), #100e17 60%), url(brake.jpg) no-repeat center;
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	animation:unfade .4s linear 0s reverse both 1;
+}
+@keyframes unfade
+{
+	from{opacity:1;}
+	to{opacity:.99;}
+}
+.brake-card:hover:after
+{
+	animation:fade .4s linear 0s both 1;
+}
+@keyframes fade
+{
+	from{opacity:1;}
+	to{opacity:.97;}
+}
+.engine-card
+{
+	padding:20px;
+	margin:20px 0px 0px 0px;
+	position:relative;
+}
+.engine-card:after
+{
+	content:'';
+	background:radial-gradient(rgba(0,0,0,0.8), #100e17 60%), url(engine.jpg) no-repeat center white;
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	opacity:.2;
+	animation:unfade .5s linear 0s reverse both 1;
+}
+.engine-card:hover:after
+{
+	animation:fade .4s ease-out 0s both 1;
+}
+.suspension-card
+{
+	padding:20px;
+	margin:20px 0px 0px 0px;
+	position:relative;
+}
+.suspension-card:after
+{
+	content:'';
+	background:radial-gradient(rgba(0,0,0,0.8), #100e17 60%), url(suspension.jpg) no-repeat center white;
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	opacity:.2;
+	animation:unfade .5s linear 0s reverse both 1;
+}
+.suspension-card:hover:after
+{
+	animation:fade .4s ease-out 0s both 1;
+}
+.fuel-card
+{
+	padding:20px;
+	margin:20px 0px 0px 0px;
+	position:relative;
+}
+.fuel-card:after
+{
+	content:'';
+	background:radial-gradient(rgba(0,0,0,0.8), #100e17 60%), url(fuel.jpg) no-repeat center white;
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	opacity:.2;
+	animation:unfade .5s linear 0s reverse both 1;
+}
+.fuel-card:hover:after
+{
+	animation:fade .4s ease-out 0s both 1;
+}
+.buttons a
+{
+	background:radial-gradient(circle farthest-side, #231F3390 0%, #231F33 100%);
+	color:#0071BC;
+	font-family:"Ubuntu", Bahnschrift;
+	font-size:15pt;
+	text-decoration:none;
+	text-align:center;
+	padding:20px 10px;
+	margin:10px 0px 0px 0px;
+	display:block;
+	border-radius:5px;
+	box-shadow:2px black;
+	animation:unresize .1s ease-out reverse 0s both 1;
+}
+.buttons a:hover
+{
+	animation:resize .2s ease-out 0s both 1;
+}
+@keyframes resize
+{
+	from{padding:20px 10px;opacity:1;}
+	to{padding:30px 20px;opacity:.8;}
+}
+@keyframes unresize
+{
+	from{padding:20px 10px;opacity:1;}
+	to{padding:30px 20px;opacity:.8;}
+}
+.rColumn
+{
+	float:left;
+	width:23%;
+	padding:0% 1% 1% 1%;
+	margin:0% 0% 0% 1%;
+	border-radius:5px;
+	overflow:hidden;
+}
+.lColumn a
+{
+	font-family:Montserrat, "Segoe UI";
+	text-decoration:none;
+	display:block;
+	float:right;
+	color:black;
+	padding:5px;
+	border-radius:6px;
+	background: rgb(0,37,138);
+	background: linear-gradient(330deg, rgba(0,113,188,1) 30%, rgba(26,140,226,1) 70%);
+	animation:unthicc linear 0.1s reverse both 1;
+}
+@keyframes unthicc
+{
+	from{padding:5px;}
+	to{padding:8px;}
+}
+.lColumn a:hover
+{
+	animation:thicc linear 0.1s alternate both 1;
+}
+@keyframes thicc
+{
+	from{padding:5px;}
+	to{padding:8px;}
+}
+.flyIn
+{
+	position:relative;
+	z-index:1;
+	animation:fly 0.8s ease-out 0.5s alternate both 1;
+}
+@keyframes fly
+{
+	from{right:50%;}
+	to{right:0%;}
+}
+.lColumn
+{
+	float:left;
+	width:72%;
+	border-radius:5px;
+	padding:0% 1% 1% 1%;
+}
+.row
+{
+	content:"";
+	display:table;
+	clear:both;
+}
+.row:after
+{
+	content:"";
+	display:table;
+	clear:both;
+}
+.footer
+{
+	border-width:5px 0px 0px 0px;
+	text-align:center;
+	padding:20px;
+	margin:10px 0px 0px 0px;
+}
+@screen and (max-width:600px)
+{
+	.column.side, .column.middle
+	{
+		width:100%;
+	}
+}
+
+.anim
+{
+	position:relative;
+	animation:moving ease-out 1s alternate both 1;
+}
+@keyframes moving
+{
+	from{right:100%;}
+	to{right:0%;}
+}
+.anim1
+{
+	position:relative;
+	animation:moving1 1s ease-out 0.2s alternate both 1;
+}
+@keyframes moving1
+{
+	from{right:100%;}
+	to{right:0%;}
+}
+.anim2
+{
+	position:relative;
+	animation:moving2 ease-out 1.3s alternate both 1;
+}
+@keyframes moving2
+{
+	from{left:100%;}
+	to{left:0%;}
+}
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+  background: rgb(26,140,226);
+  border-radius: 10px;
+}
