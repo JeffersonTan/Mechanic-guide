@@ -80,7 +80,7 @@ html, body{
 	text-align: justify;
 	margin-right: 4%;
 }
-.text {
+.introduction {
 	display: flex;
 	flex-flow: column;
 }
