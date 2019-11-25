@@ -329,3 +329,19 @@ p
   background: rgb(26,140,226);
   border-radius: 10px;
 }
+
+.social {
+	 color:#0071BC;
+	 display: flex;
+	 flex-flow: row;
+	 align-content: space-around;
+}
+.social.instagram {
+	 color:#0071BC;
+}
+.social.line {
+	 color:#0071BC;
+}
+.social.facebook {
+	 color:#0071BC;
+}
