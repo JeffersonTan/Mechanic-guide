@@ -46,6 +46,60 @@ body
 	to{right:0%;}
 }
 
+.footer
+{
+	border-width:5px 0px 0px 0px;
+	text-align:center;
+	padding:20px;
+	margin:10px 0px 0px 0px;
+}
+
+.social {
+	color:#0071BC;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around
+}
+
+.instagram {
+	font-size: 20pt;
+	margin: 1%;
+}
+.instagram a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.instagram a:hover {
+	color: rgb(10, 45, 97);
+}
+
+.youtube {
+	font-size: 20pt;
+	margin: 1%;
+}
+.youtube a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.youtube a:hover {
+	color: rgb(10, 45, 97);
+}
+
+.facebook {
+	font-size: 20pt;
+	margin: 1%;
+}
+.facebook a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.facebook a:hover {
+	color: rgb(10, 45, 97);
+}
+
 ::-webkit-scrollbar
 {
   width: 10px;
