@@ -79,6 +79,7 @@ html, body{
 	left:2%;
 	text-align: justify;
 	margin-right: 4%;
+	font-size: 20px;
 }
 .text {
 	display: flex;
