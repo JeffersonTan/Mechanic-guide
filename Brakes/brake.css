@@ -92,7 +92,7 @@ html, body{
 	display: flex;
 	flex-flow: column;
 }
-.dual-circuit {
+.floating {
 	background-color: rgb(240,240,240);
 	color:rgb(100,100,100);
 	width:350px;
@@ -100,19 +100,14 @@ html, body{
 	border-radius: 5px;
 	float: right;
 }
-.master-slave {
-	background-color: rgb(240,240,240);
-	color:rgb(100,100,100);
-	width:350px;
-	margin:1% 1% 1% 3%;
-	border-radius: 5px;
-	float: right;
+.floating p {
+	font-size: 17px;
 }
 @media all and (max-width: 600px) {
 	.text {
 		flex-direction: column;
 	}
-	.dual-circuit, .master-slave {
+	.floating {
 		margin:3%;
 		width: 95%;
 	}
@@ -123,4 +118,50 @@ html, body{
 ::-webkit-scrollbar-thumb {
   background: rgb(26,140,226);
   border-radius: 10px;
+}
+
+.social {
+	color:#0071BC;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around
+}
+
+.instagram {
+	font-size: 20pt;
+	margin: 1%;
+}
+.instagram a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.instagram a:hover {
+	color: rgb(10, 45, 97);
+}
+
+.youtube {
+	font-size: 20pt;
+	margin: 1%;
+}
+.youtube a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.youtube a:hover {
+	color: rgb(10, 45, 97);
+}
+
+.facebook {
+	font-size: 20pt;
+	margin: 1%;
+}
+.facebook a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.facebook a:hover {
+	color: rgb(10, 45, 97);
 }
