@@ -9,6 +9,20 @@ body
 {
 	background:#100E17;
 }
+p {
+	font-size: 15pt;
+	color: rgb(168, 168, 168);
+	text-align: justify;
+}
+p a {
+	text-decoration: none;
+	color: white;
+}
+p a:hover {
+	background: -webkit-linear-gradient(330deg, rgb(0, 150, 250) 10%, rgb(0, 69, 197) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .topnav
 {
 	color:white;
