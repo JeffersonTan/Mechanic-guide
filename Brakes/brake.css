@@ -103,15 +103,7 @@ html, body{
 .floating p {
 	font-size: 17px;
 }
-@media all and (max-width: 600px) {
-	.text {
-		flex-direction: column;
-	}
-	.floating {
-		margin:3%;
-		width: 95%;
-	}
-}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -164,4 +156,20 @@ html, body{
 }
 .facebook a:hover {
 	color: rgb(10, 45, 97);
+}
+
+@media all and (max-width: 600px) {
+	.text {
+		flex-direction: column;
+	}
+	.floating {
+		margin:3%;
+		width: 95%;
+	}
+	.social {
+		flex-flow: column;
+	}
+	.instagram, .facebook, .youtube {
+		margin: 5%;
+	}
 }

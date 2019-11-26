@@ -281,13 +281,6 @@ p
 	padding:20px;
 	margin:10px 0px 0px 0px;
 }
-@screen and (max-width:600px)
-{
-	.column.side, .column.middle
-	{
-		width:100%;
-	}
-}
 
 .anim
 {
@@ -374,4 +367,24 @@ p
 }
 .facebook a:hover {
 	color: rgb(10, 45, 97);
+}
+
+@media all and (max-width: 600px) {
+	.column.side, .column.middle
+	{
+		width:100%;
+	}
+	.text {
+		flex-direction: column;
+	}
+	.floating {
+		margin:3%;
+		width: 95%;
+	}
+	.social {
+		flex-flow: column;
+	}
+	.instagram, .facebook, .youtube {
+		margin: 5%;
+	}
 }
