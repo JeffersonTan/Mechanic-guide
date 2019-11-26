@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Varela+Round&display=swap');
+html
+{
+	font-family:"Varela Round", "Myriad Pro", "Ubuntu";
+	color:white;
+	overflow-x: hidden;
+}
+body
+{
+	background:#100E17;
+}
+
+p {
+	font-size: 16pt;
+	text-align: center;
+	color: rgb(168, 168, 168);
+}
+.topnav
+{
+	color:white;
+	overflow:hidden;
+	border-width:0px 0px 1px 0px;
+	border-color:#302F34;
+	border-style:solid;
+}
+.topnav a
+{
+	color:white;
+	text-decoration:none;
+	padding:15px 30px;
+	border-style:solid;
+	border-color:#302F34;
+	border-width:0px 1px 0px 0px;
+	text-align:center;
+	display:block;
+	float:left;
+	font-family:corbel, ubuntu;
+	font-variant:small-caps;
+}
+.topnav a:hover
+{
+	background-color:#4585DE80;
+}
+.anim1
+{
+	position:relative;
+	animation:moving1 1s ease-out 0.2s alternate both 1;
+}
+@keyframes moving1
+{
+	from{right:100%;}
+	to{right:0%;}
+}
+
+.footer
+{
+	border-width:5px 0px 0px 0px;
+	text-align:center;
+	padding:20px;
+	margin:10px 0px 0px 0px;
+}
+
+.social {
+	color:#0071BC;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around
+}
+
+.instagram {
+	font-size: 20pt;
+	margin: 1%;
+}
+.instagram a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.instagram a:hover {
+	color: rgb(10, 45, 97);
+}
+
+.youtube {
+	font-size: 20pt;
+	margin: 1%;
+}
+.youtube a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.youtube a:hover {
+	color: rgb(10, 45, 97);
+}
+
+.facebook {
+	font-size: 20pt;
+	margin: 1%;
+}
+.facebook a {
+	text-decoration: none;
+	color: rgb(223, 223, 223);
+	font-size:15pt
+}
+.facebook a:hover {
+	color: rgb(10, 45, 97);
+}
+
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb
+{
+  background: rgb(26,140,226);
+  border-radius: 10px;
+}
