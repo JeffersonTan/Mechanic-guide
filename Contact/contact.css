@@ -106,6 +106,22 @@ p {
 	color: rgb(10, 45, 97);
 }
 
+@media all and (max-width: 600px) {
+	.text {
+		flex-direction: column;
+	}
+	.floating {
+		margin:3%;
+		width: 95%;
+	}
+	.social {
+		flex-flow: column;
+	}
+	.instagram, .facebook, .youtube {
+		margin: 5%;
+	}
+}
+
 ::-webkit-scrollbar
 {
   width: 10px;
