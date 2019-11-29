@@ -312,6 +312,8 @@ p
 	from{left:100%;}
 	to{left:0%;}
 }
+
+/* Webkit scrollbar - for Chrome based browsers */
 ::-webkit-scrollbar
 {
   width: 10px;
@@ -323,6 +325,14 @@ p
   border-radius: 10px;
 }
 
+/* Firefox scrollbar */
+.scroller {
+	overflow-y: scroll;
+  scrollbar-color: rgb(26, 140, 226) rgb(8, 60, 100);
+  scrollbar-width: thin;
+}
+
+/* Social links */
 .social {
 	color:#0071BC;
 	display: flex;
