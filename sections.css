@@ -11,7 +11,7 @@ html, body{
 .head
 {
 	position: relative;
-	background:radial-gradient(circle at right, rgba(0,0,0,0.8), #100e17 40%), url(brakes.jpg) no-repeat right;
+	background:radial-gradient(circle at right, rgba(0,0,0,0.8), #100e17 40%), no-repeat right;
 	height:300px;
 	border-style:solid;
 	border:0px;
