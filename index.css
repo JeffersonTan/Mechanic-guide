@@ -287,19 +287,19 @@ p
 	position:relative;
 	animation:moving ease-out 1s alternate both 1;
 }
-@keyframes moving
-{
-	from{right:100%;}
-	to{right:0%;}
-}
 .anim1
 {
 	position:relative;
-	animation:moving1 1s ease-out 0.2s alternate both 1;
+	animation:moving 1s ease-out 0.2s alternate both 1;
 }
-@keyframes moving1
+.anim3
 {
-	from{right:100%;}
+	position:relative;
+	animation:moving 1s ease-out 0.4s alternate both 1;
+}
+@keyframes moving
+{
+	from{right:110%;}
 	to{right:0%;}
 }
 .anim2
@@ -309,7 +309,7 @@ p
 }
 @keyframes moving2
 {
-	from{left:100%;}
+	from{left:110%;}
 	to{left:0%;}
 }
 
