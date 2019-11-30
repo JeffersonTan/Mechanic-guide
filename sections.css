@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Varela+Round|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu|Varela+Round|Roboto|Raleway:700&display=swap');
 html
 {
 	font-family:"Varela Round", "Myriad Pro";
@@ -51,14 +51,38 @@ html, body{
 {
 	background-color:#4585DE80;
 }
-.anim1 {
+
+.anim
+{
 	position:relative;
-	animation:moving1 1s ease-out 0.2s alternate both 1;
+	animation:moving ease-out 1s alternate both 1;
 }
-@keyframes moving1 {
-	from{right:100%;}
+.anim1
+{
+	position:relative;
+	animation:moving 1s ease-out 0.2s alternate both 1;
+}
+.anim3
+{
+	position:relative;
+	animation:moving 1s ease-out 0.4s alternate both 1;
+}
+@keyframes moving
+{
+	from{right:110%;}
 	to{right:0%;}
 }
+.anim2
+{
+	position:relative;
+	animation:moving2 ease-out 1.3s alternate both 1;
+}
+@keyframes moving2
+{
+	from{left:110%;}
+	to{left:0%;}
+}
+
 .content {
 	display:flex;
 	flex-flow:column;
@@ -70,11 +94,17 @@ html, body{
 	color:black;
 	left:2%;
 	font-size: 30pt;
-	font-family: Roboto, "Sans";
+	font-family: Raleway, "Sans-serif";
 }
 .content h2 {
 	position:relative;
+	font-family: Raleway, sans-serif;
 	left:2%;
+}
+.content h3 {
+	position: relative;
+	font-family: Raleway, sans-serif;
+	left: 2%;
 }
 .content p {
 	position: relative;
@@ -82,6 +112,7 @@ html, body{
 	text-align: justify;
 	margin-right: 4%;
 	font-size: 20px;
+	font-family: "Montserrat";
 }
 .text {
 	display: flex;
