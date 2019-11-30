@@ -49,15 +49,26 @@ p a:hover {
 {
 	background-color:#4585DE80;
 }
+/* Animations */
+.anim
+{
+	position:relative;
+	animation:moving ease-out 1s alternate both 1;
+}
+@keyframes moving
+{
+	from{right:110%;}
+	to{right:0%;}
+}
 .anim1
 {
 	position:relative;
-	animation:moving1 1s ease-out 0.2s alternate both 1;
+	animation:moving 1s ease-out 0.3s alternate both 1;
 }
-@keyframes moving1
+.anim2
 {
-	from{right:100%;}
-	to{right:0%;}
+	position:relative;
+	animation:moving 1s ease-out 0.6s alternate both 1;
 }
 
 .footer
