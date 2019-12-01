@@ -29,11 +29,47 @@
 			<div class=content>
 				<div class=text>
 					<div class=section>
+
+						<style>
+							.container {
+								display:flex;
+								flex-flow:row;
+								justify-content:space-around;
+							}
+							.container .floating {
+								margin:1%;
+								width:250px;
+							}
+							.container1 {
+								width:300px;
+								margin:0% 2% 2% 2%;
+								float:right;
+							}
+							.container1 .floating {
+								width:100%;
+							}
+							@media all and (max-width: 600px) {
+								.container {
+									flex-flow:column;
+								}
+								.container1 {
+									width:95%;
+									margin:0% 0% 0% 5%;
+								}
+								.container .floating {
+									margin:3%;
+									width: 95%;
+								}
+							}
+						</style>
+
 						<h1>Carburettors</h1>
 						
-						<div class=floating style=width:300px;>
-							<img src=solex.gif width=100% height=auto>
-							<p>A typical fixed-jet carburettor. This is a Solex type carburettor where the air flows from the top to bottom. This is called a down-draught carburettor.</p>
+						<div class=container1>
+							<div class=floating>
+								<img src=solex.gif width=100% height=auto>
+								<p>A typical fixed-jet carburettor. This is a Solex type carburettor where the air flows from the top to bottom. This is called a down-draught carburettor.</p>
+							</div>
 						</div>
 
 						<p>A carburettor mixes fuel and air to a certain ratio that the engine needs at any time. It does this by spraying fuel into the moving air stream through a jet, which vaporizes the fuel making an explosive mixture. The faster an engine runs, the more air it sucks in. The air passes through a narrow neck inside the carburettor (Called <b>venturi</b>), which speeds up its flow.</p>
@@ -81,27 +117,6 @@
 
 						<h3>Changing from jet to jet</h3>
 
-						<style>
-							.container {
-								display:flex;
-								flex-flow:row;
-								justify-content:space-around;
-							}
-							.container .floating {
-								margin:1%;
-								width:250px;
-							}
-							@media all and (max-width: 600px) {
-								.container {
-									flex-flow:column;
-								}
-								.container .floating {
-									margin:3%;
-									width: 95%;
-								}
-							}
-						</style>
-
 						<div class=container>
 							<div class=floating>
 								<img src=idle.png width=100% height=auto>
@@ -131,7 +146,7 @@
 					<div class=section>
 						<h2>Fuel Injection</h2>
 
-						<div class=floating style=float:left;margin-left:3%;>
+						<div class=floating style=float:left;margin-left:2%;>
 							<img src=injection.png width=100% height=auto>
 							<p>Petrol cars uses indirect injection system. A pump sends the petrol to the engine bay which is then injected into the intake manifold by an injector. There's either a separate injector for each cylinder or one/two injectors on the intake manifold</p>
 						</div>
@@ -235,25 +250,27 @@
 	</div>
 
 	<div class=wrapper>
-		<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1371 5"><defs><style>.cls-1{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px;stroke:url(#linear-gradient);}</style><linearGradient id="linear-gradient" y1="2.5" x2="1371" y2="2.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#039"/><stop offset="1" stop-color="#1a8ce2"/></linearGradient></defs><line class="cls-1" x1="2.5" y1="2.5" x2="1368.5" y2="2.5"/></svg>
-		
-		<div class=spacing></div>
+		<div class=anim3>
+			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1371 5"><defs><style>.cls-1{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px;stroke:url(#linear-gradient);}</style><linearGradient id="linear-gradient" y1="2.5" x2="1371" y2="2.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#039"/><stop offset="1" stop-color="#1a8ce2"/></linearGradient></defs><line class="cls-1" x1="2.5" y1="2.5" x2="1368.5" y2="2.5"/></svg>
+			
+			<div class=spacing></div>
 
-		<div class=footer style="">
-			<div class=social>
-				<div class="instagram">
-					Instagram<br>
-					<a href=https://www.instagram.com/jefferson_richtan/>@Jefferson_richtan</a>
-				</div>
+			<div class=footer style="">
+				<div class=social>
+					<div class="instagram">
+						Instagram<br>
+						<a href=https://www.instagram.com/jefferson_richtan/>@Jefferson_richtan</a>
+					</div>
 
-				<div class="youtube">
-					Youtube<br>
-					<a href=https://www.youtube.com/user/bonbm/featured>Jefferson Tan</a>
-				</div>
+					<div class="youtube">
+						Youtube<br>
+						<a href=https://www.youtube.com/user/bonbm/featured>Jefferson Tan</a>
+					</div>
 
-				<div class="facebook">
-					Facebook<br>
-					<a href=https://www.facebook.com/jefferson.richtan>Jefferson Tan</a>
+					<div class="facebook">
+						Facebook<br>
+						<a href=https://www.facebook.com/jefferson.richtan>Jefferson Tan</a>
+					</div>
 				</div>
 			</div>
 		</div>
